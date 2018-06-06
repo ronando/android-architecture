@@ -1,4 +1,4 @@
-package com.jiuyan.lifecyclecomponents;
+package com.jiuyan.lifecyclecomponents.lifecycle;
 
 import android.arch.lifecycle.Lifecycle;
 import android.arch.lifecycle.LifecycleObserver;
@@ -65,4 +65,10 @@ public class LocationManager implements LifecycleObserver {
             }
         }).start();
     }
+
+    @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
+    public void destroy(){
+        callbackOwner.clear();
+    }
 }
+

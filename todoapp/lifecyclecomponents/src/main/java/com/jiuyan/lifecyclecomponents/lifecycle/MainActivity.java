@@ -1,8 +1,10 @@
-package com.jiuyan.lifecyclecomponents;
+package com.jiuyan.lifecyclecomponents.lifecycle;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+
+import com.jiuyan.lifecyclecomponents.R;
 
 /**
  * @author wuzhao

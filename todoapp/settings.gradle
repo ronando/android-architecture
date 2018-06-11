@@ -1,1 +1,1 @@
-include ':app', ':lifecyclecomponents'
+include ':mvvm-live', ':app', ':todo-mvp'

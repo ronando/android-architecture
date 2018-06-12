@@ -1,1 +1,1 @@
-include ':mvvm-live', ':app', ':todo-mvp', ':todo-mvp-clean'
+include ':mvvm-live', ':app', ':todo-mvp', ':todo-mvp-clean', ':lifecycle-mvp'
